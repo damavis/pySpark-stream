@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pySpark-stream"
+version = "0.1.0"
+description = ""
+authors = ["Oscar <oscar.garcia@damavis.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyspark = "^3.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
